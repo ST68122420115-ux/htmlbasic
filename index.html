@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบสอบถาม</title>
+</head>
+<body style="font-family: Arial;">
+
+    <h2 style="text-align: center;">แบบสอบถาม</h2>
+    <hr>
+    <div 
+    style="background-color: #D3D3D3; position: absolute;
+    top: 70px; left: 2; width: 99%; height: 89.6%; z-index: -1; "></div>
+
+    <table align="center" bgcolor="#FFB6C1" cellpadding="21" >
+        <tr>
+            <td>
+
+                <form action="https://www.ubru.ac.th" method="post" >
+
+                     <div style="text-align: center;">
+                        <b>ข้อมูลผู้ตอบแบบสอบถาม</b><br><br>
+                     </div>
+                    
+                    <b>ชื่อ-นามสกุล</b><br>
+                    <input type="text" name="fullname" size="40"><br><br>
+
+                    <b>รหัสนักศึกษา</b><br>
+                    <input type="text" name="student_id" size="40"><br><br>
+
+                    <b>เพศ</b><br>
+                    <input type="radio" name="gender" value="ชาย" checked> ชาย
+                    <input type="radio" name="gender" value="หญิง"> หญิง 
+                    <br><br>
+
+                    <b>สังกัดคณะ</b><br>
+                    <select name="faculty" size="8">
+                        <option>ครุศาสตร์</option>
+                        <option>นิติศาสตร์</option>
+                        <option>คณะวิทยาศาสตร์</option>
+                        <option>คณะเกษตรศาสตร์</option>
+                        <option>คณะพยาบาลศาสตร์</option>
+                        <option>คณะสาธารณสุขศาสตร์</option>
+                        <option>คณะวิทยาการคอมพิวเตอร์</option>
+                        <option>คณะเทคโนโลยีอุตสาหกรรม</option>
+                        <option>คณะบริหารธุรกิจและการจัดการ</option>
+                        <option>คณะมนุษยศาสตร์และสังคมศาสตร์</option>
+                        <option>คณะแพทย์แผนไทยและแพทย์ทางเลือก</option>
+                    </select>
+                    <br><br>
+
+                    <b>แม่สีที่ชอบ</b><br>
+                    <input type="checkbox" name="color_red"> สีแดง  
+                    <input type="checkbox" name="color_green"> สีเขียว  
+                    <input type="checkbox" name="color_blue"> สีน้ำเงิน  
+                    <input type="checkbox" name="color_blue"> ไม่บอก  
+                    <br><br>
+
+                    <b>ผลไม้ที่ชื่นชอบ</b><br>
+                    <input type="checkbox" name="fruit_orange"> บลูเบอรี่  
+                    <input type="checkbox" name="fruit_banana"> สตรอเบอร์รี่   
+                    <input type="checkbox" name="fruit_strawberry"> ราสเบอรี่พาย   
+                    <input type="checkbox" name="fruit_mango"> อื่นๆ  
+                    <br><br>
+
+                    <b>อาหารที่ชื่นชอบ</b><br>
+                    <input type="checkbox" name="food_noodle"> กะเพราหมู  
+                    <input type="checkbox" name="food_fried"> กะเพราไก่  
+                    <input type="checkbox" name="food_somtam"> กะเพราเนื้อ  
+                    <input type="checkbox" name="food_curry"> อื่นๆ  
+                    <br><br>
+
+                    <div style="text-align: center;">
+                        <input type="submit" value="บันทึก" >
+                    </div>
+
+                </form>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
